@@ -20,7 +20,7 @@ $ go build -o packages-api
 Then just make a GET request to the following address, as in the example: 
 
 ````
-$ http://localhost:8080/packages?branch=main&arch=amd64&package=nginx
+$ :wqhttp://localhost:8080/packages?branch=main&arch=amd64&package=nginx
 ````
 
 or just use cURL or Postman.
